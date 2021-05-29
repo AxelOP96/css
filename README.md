@@ -1,7 +1,11 @@
 # css
 practica de css con lo mas utilizado:
 CSS significa Cascading Style Sheets traducido como hojas de estilo en cascada. Es el lenguaje de estilos que se utiliza para la presentacion de documentos HTML. 
- 
+ Para utilizar CSS en nuestro HTML existen varias formas como:
+ * utilizar la etiqueta link <link rel="stylesheet" href=""> esta etiqueta conecta el html con el css externo, en la misma u otra carpeta.
+ *utilizar el atributo style dentro del HTML <style></style> en el head, se usa generalmente en la creación o maquetación de correos electronicos
+ *usar el atributo style en linea, es decir aplicarlo al elemento que se quiere aplicar estilos, no es recomendable su utilización.
+ *usar @import url(css/styles.css) que equivaldria a link, pero solo guarda si se guardan los cambios en el HTML, se carga de forma asincrona. Tampoco es recomendable esta practica.
 las etiquetas más usadas y para qué sirven son las siguientes:
 
 align-content:
