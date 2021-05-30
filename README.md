@@ -21,7 +21,7 @@ selector{
     background-color:steelblue;
 }
     selectores:
-selectores simples y compuestos: dentro de los selectores simples se encuentran los selectores elementales y los de atributo, a su vez en los elementales se subdivide en selector universal(* representa el documento entero) y selector de tipo o etiqueta(poner el nombre de la etiqueta), los seklectores de atributo se subdivide en id(id del elemento), clase(clase del elemento), y otros atributos([atributo]); y en los compuestos se encuentran los selectores agrupados, los combinadores las pseudoclases y los pseudoelementos.
+selectores simples y compuestos: dentro de los selectores simples se encuentran los selectores elementales y los de atributo, a su vez en los elementales se subdivide en selector universal(* representa el documento entero) y selector de tipo o etiqueta(poner el nombre de la etiqueta), los seklectores de atributo se subdivide en id(id del elemento), clase(clase del elemento), y otros atributos([atributo],[atributo=valor],[atributo^=valor], [atributo*=valor], [atributo$=valor], [atributo|=valor]); y en los compuestos se encuentran los selectores agrupados, los combinadores las pseudoclases y los pseudoelementos.
 las etiquetas más usadas y para qué sirven son las siguientes:
 
 align-content:
