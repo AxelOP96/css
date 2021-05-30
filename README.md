@@ -37,18 +37,18 @@ font-family:
 font-size:
 font-weight:
 grid:
-height:
+height: es la altura de un elemento
 hsl():
 justify-content:
 justify-items:
 justify-self:
 @keyframes:
 linear-gradient():
-margin:
+margin: es la distancia entre los elementos
 max/ min-width:
 :nth-child:
 opacity():
-padding:
+padding: es la distancia entre un elemento y su contenido
 rgb():
 rgba():
 text-align:
@@ -56,7 +56,11 @@ text-decoration:
 text-transform:
 transition:
 url():
-width:
+width: es el ancho de un elemento
+
+Elementos en linea y en bloque:
+Los elementos en linea ocupan el lugar que ocupa su contenido.
+No se le puede dar medidas a un elemento en linea(inline)
 
 
 
