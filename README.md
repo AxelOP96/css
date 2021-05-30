@@ -10,7 +10,7 @@ CSS significa Cascading Style Sheets traducido como hojas de estilo en cascada. 
 En CSS se encuentran:
 *selector: elemento al que vamos a plicar estilos.
 *propiedad: lo que vamos a cambiar.
-*valor: el nuevo valor que va a tener
+*valor: el nuevo valor que le vamos a dar a la propiedad.
 *propiedad:valor -> se le denomina declaracion
 *al conunto de selector+declaracion(es) se le denomina regla.
 ejemplo:
@@ -20,7 +20,8 @@ selector{
  body {
     background-color:steelblue;
 }
-
+selectores:
+selectores simples y compuestos: dentro de los selectores simples se encuentran los selectores elementales y los de atributo, a su vez en los elementales se subdivide en selector universal(* representa el documento entero) y selector de tipo o etiqueta(poner el nombre de la etiqueta); y en los compuestos se encuentran los selectores agrupados, los combinadores las pseudoclases y los pseudoelementos.
 las etiquetas más usadas y para qué sirven son las siguientes:
 
 align-content:
