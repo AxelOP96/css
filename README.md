@@ -6,6 +6,21 @@ CSS significa Cascading Style Sheets traducido como hojas de estilo en cascada. 
  *utilizar el atributo style dentro del HTML <style></style> en el head, se usa generalmente en la creación o maquetación de correos electronicos
  *usar el atributo style en linea, es decir aplicarlo al elemento que se quiere aplicar estilos, no es recomendable su utilización.
  *usar @import url(css/styles.css) que equivaldria a link, pero solo guarda si se guardan los cambios en el HTML, se carga de forma asincrona. Tampoco es recomendable esta practica.
+  
+En CSS se encuentran:
+*selector: elemento al que vamos a plicar estilos.
+*propiedad: lo que vamos a cambiar.
+*valor: el nuevo valor que va a tener
+*propiedad:valor -> se le denomina declaracion
+*al conunto de selector+declaracion(es) se le denomina regla.
+ejemplo:
+selector{
+    propiedad:valor;
+}
+ body {
+    background-color:steelblue;
+}
+
 las etiquetas más usadas y para qué sirven son las siguientes:
 
 align-content:
