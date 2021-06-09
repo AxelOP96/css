@@ -1,4 +1,41 @@
 .lorem,
 .lorem2{
     background-color:aquamarine;
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+h1{
+    color:teal;
+}
+div{
+    border: 1px solid black;
+    width:100%;
+    height:auto;
+    background-color:#fafafa;
+}
+.margin{
+    margin: 0 15px 15px 0;
+
+    
+}
+.padding{
+    padding: 15px;
+    border: 1px solid teal;
+}
+.border{
+    border-style:dotted;/* inset, outset, dashed, etc;*/
+    border-color:teal;
+    border-width: 30px;
+    border-top-width:10px;
+    border-right-width:10px;
+    border-bottom-width:10px;
+    border-left-width:10px;
+    border-top-style:dashed;
+    border-right-style:dotted;
+    border-bottom-style:double;
+    border-left-style: groove;
+    border-top-color: yellow;
+    border-bottom-color: red;
 }
