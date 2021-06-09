@@ -1,3 +1,6 @@
+*{
+    box-sizing:border-box;
+}
 .lorem,
 .lorem2{
     background-color:aquamarine;
@@ -38,4 +41,15 @@ div{
     border-left-style: groove;
     border-top-color: yellow;
     border-bottom-color: red;
+}
+.box-sizing{
+    width: 300px;
+    height:300px;
+    border: 1px solid teal;
+}
+.border-radius{
+    width:500px;
+    height:500px;
+    border-radius: 50%;
+    overflow:auto;
 }
