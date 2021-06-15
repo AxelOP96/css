@@ -53,3 +53,6 @@ div{
     border-radius: 50%;
     overflow:auto;
 }
+.outline{
+    border: 2px solid lightcoral;
+}
