@@ -1,5 +1,7 @@
 # css
-practica de css con lo mas utilizado:
+Practica de CSS con lo mas utilizado:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 CSS significa Cascading Style Sheets traducido como hojas de estilo en cascada. Es el lenguaje de estilos que se utiliza para la presentacion de documentos HTML. Una particularidad es que los estilos que  escribo abajo sobreescriben a los de arriba.
  Para utilizar CSS en nuestro HTML existen varias formas como:
  * utilizar la etiqueta link <link rel="stylesheet" href=""> esta etiqueta conecta el html con el css externo, en la misma u otra carpeta.
@@ -22,7 +24,7 @@ selector{
 }
     selectores:
 selectores simples y compuestos: dentro de los selectores simples se encuentran los selectores elementales y los de atributo, a su vez en los elementales se subdivide en selector universal(* representa el documento entero) y selector de tipo o etiqueta(poner el nombre de la etiqueta), los seklectores de atributo se subdivide en id(id del elemento), clase(clase del elemento), y otros atributos([atributo],[atributo=valor],[atributo^=valor], [atributo*=valor], [atributo$=valor], [atributo|=valor]); y en los compuestos se encuentran los selectores agrupados, los combinadores, las pseudoclases y los pseudoelementos.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *Teoria de CSS*
 
 Margin: es la propiedad que nos permite generar espacio entre elementos(en el box model separa las cajas). Es un shorthand que controla los 4 lados posibles a los que dar margenes. Admite hasta 4 valores que van en el orden de las agujas del reloj(top right bottom left) los elementos de linea solo tienen margin horizontal. si usamos margin left/right: auto la caja se pega al borde opuesto.Errores comunes: usar el *{
@@ -37,6 +39,7 @@ Colapsado de margenes: los margenes verticales se solapan.
 Display: Nos sirve para cambiar el contexto de los elementos del navegador. Admite varios valores como: none (hace que el elemento no se muestre, pero sigue cargandose); block (hace que el elemento sea de bloque); inline(hace que el elemento sea de linea); inline-block (hace que el elemento sea de linea pero admite medidas y margenes verticales);
 Outline: es la propiedad que nos permite dibujar un borde por fuera del modelo de la caja. es un shorthand que engloba: outline-width(que controla el ancho de outline); outline-style(que controla el estilo del outline); outline-color(que controla el color del outline). Tiene las mismas propiedades y sintaxis que el border pero con algunas diferencias como que no ocupa sitio, ya que no forma parte del box-model, no se puede redondear y no se pueden controlar los lados de forma independiente. Tambien cuenta con la propiedad outline-offset que nos permite aumentar o disminuir la distancia del outline en relacion a la caja a la que pertenece.
 Text-align: Es la propiedad que nos permite alinear horizontalmente el contenido de un elemento de bloque simepre que el contenido NO TENGA ANCHO DECLARADO. Acepta 4 valores: text-align:left alinea el contenido a la izquierda, es la propiedad por defecto; text-align:right alinea el contenido a la derecha; text-align:center alinea el contenido al centro, solo centra elementos de contenido en bloque, por lo que si fuera un link habria que darle display: block; text-align: justify alinea el contenido de forma justificada. No es recomendable usarlo. Pra centrar una caja o una imagen es conveniente usar Margin-left: auto y margin-right:auto y si fuera un contenido como imagen dentro de un div al aplicarle text-align: center se centra.
+Box-shadow: se creo para añadir efectos de sombra a nuestra caja. En esencia lo que hace es crear un clon de la caja respetando la forma de su box-model (ancho, alto, redondez). La sintaxis de box-shadow se puede escribir de distintas formas lo que queremos conseguir. Los valores que le podemos poner son: offset-x desplazamiento en x (obligatorio); offset-y desplazamiento en y (obligatorio); blur-radius desenfoque de la sombra; color el color de la sombra, si no lo especificamos lo heredara del elemento al que pertenece; inset determina si la sombra sera interior o exterior;
 
 las etiquetas más usadas y para qué sirven son las siguientes:
 
@@ -67,7 +70,6 @@ opacity():
 padding: es la distancia entre un elemento y su contenido
 rgb():
 rgba():
-text-align:
 text-decoration:
 text-transform:
 transition:
