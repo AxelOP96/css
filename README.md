@@ -56,40 +56,7 @@ Position: nos permite posicionar los elementos. Flujo de renderizado: por norma 
 Los posibles valores que le podemos dar a position son: static(es el valor que tiene por defecto un elemento, con este valor el elemento NO ESTA POSICIONADO y por lo cual no podremos moverlo); relative( el elemento se mantendra su posicion y medidas en el flujo de renderizado y mantendra su espacio reservado. Si lo movemos lo hara usando su posicion en el html como punto de referencia); absolute(el elemento perdera sus medidas y su espacio reservado. Si lo movemos usara el elemento padre posicionado como referencia. Si no tiene ninguno, usara el elemento html de referencia), fixed(el elemento perdera sus medidas y su espacio reservado. S i lo movemos usara el elemento html de referencia y ademas se quedara fijo en esa posicion aunque le hagamos scroll), sticky(es una mezcla de position relative y fixed. Con este tipo de posicionamiento los valores top, left, bottom y right no sirven para mover el elemento, si no para indicarle en que punto pasara a tener un comportamiento de posicionamiento fixed, hasta llegar a ese punto se comportara como si tuviera relative).
 Cuando usamos posicion absolute pierde sus medidas y pierde el espacio reservado.
 
-las etiquetas más usadas y para qué sirven son las siguientes:
 
-align-content:
-align-items:
-animation:
-background:
-background-color: cambia el color de fondo al color que elijas. por ejemplo: green o en valor hexadecimal #123afa o #000.
-border: sirve para poner un borde alrededor del elemento
-color: cambia el color de la fuente
-display:
-flex:
-font-family:
-font-size:
-font-weight:
-grid:
-height: es la altura de un elemento
-hsl():
-justify-content:
-justify-items:
-justify-self:
-@keyframes:
-linear-gradient():
-margin: es la distancia entre los elementos
-max/ min-width:
-:nth-child:
-opacity():
-padding: es la distancia entre un elemento y su contenido
-rgb():
-rgba():
-text-decoration:
-text-transform:
-transition:
-url():
-width: es el ancho de un elemento
 
 Elementos en linea y en bloque:
 Los elementos en linea ocupan el lugar que ocupa su contenido.
